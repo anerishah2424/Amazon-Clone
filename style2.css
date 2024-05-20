@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #bar {
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+  }
+  
+  #bar a {
+    margin-right: 20px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  #bar input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  #search {
+    background-color: #d6843d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #logo {
+    color: #d6843d;
+    font-size: 1.5em;
+    margin-right: auto;
+  }
+  
+  #main-content {
+    margin-top: 60px;
+    padding: 20px;
+  }
+  
+  #banner {
+    background-image: url("xianjuan-hu-uPYpcsbICI4-unsplash.jpg");
+    background-size: cover;
+    color: rgb(221, 193, 101);
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 20px;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #d6843d;
+    text-decoration: none;
+  }
